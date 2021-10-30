@@ -1,12 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #FFDBAA;
   color: #553100;
+  font-family: sans-serif;
+  display: flex;
+  align-items: baseline;
+  border-bottom: solid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 40px 10px;
 }
 
 .btn {
   background-color: #805215;
+  color: white;
+  list-style: none;
+  font-size: 1.25em;
+  font-weight: bold;
+  width: 100%;
+}
+
+.nav-btn {
+  padding: 10px 0px;
+  margin: 10px;
+  width: 120px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2em;
+  padding-left: 50px;
+  margin-right: auto;
+  text-transform: uppercase;
 }
 
 main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   background-color: #D4A76A;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: white;
+  margin: 5%;
+  padding: 10px;
+  width: 250px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card.about {
+  width: 100%
 }
